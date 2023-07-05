@@ -13,23 +13,23 @@ interactions:
       Content-Type:
       - application/json
       Repeatability-First-Sent:
-      - Tue, 04 Jul 2023 23:48:39 GMT
+      - Wed, 05 Jul 2023 18:28:54 GMT
       Repeatability-Request-ID:
-      - 4cc93729-1ac5-11ee-9eb0-ef1ec79c5484
+      - cc4cf011-1b61-11ee-849e-ef1ec79c5484
       User-Agent:
-      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0b3 Python/3.10.7 (Windows-10-10.0.22621-SP0)
+      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0 Python/3.10.7 (Windows-10-10.0.22621-SP0)
       x-ms-content-sha256:
       - vBTkhrLFogng0nIWoP6/XqO3xl87GjFK9aShkzc8E3g=
       x-ms-date:
-      - Tue, 04 Jul 2023 23:48:39 GMT
+      - Wed, 05 Jul 2023 18:28:54 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: POST
-    uri: https://sanitized.communication.azure.com/rooms?api-version=2023-03-31-preview
+    uri: https://sanitized.communication.azure.com/rooms?api-version=2023-06-14
   response:
     body:
-      string: '{"id": "sanitized", "createdAt": "2023-07-04T23:48:40.2621547+00:00",
-        "validFrom": "2023-07-04T23:48:39.9737078+00:00", "validUntil": "2023-12-31T23:48:39.9737078+00:00"}'
+      string: '{"id": "sanitized", "createdAt": "2023-07-05T18:28:55.7523899+00:00",
+        "validFrom": "2023-07-05T18:28:55.4717821+00:00", "validUntil": "2024-01-01T18:28:55.4717821+00:00"}'
     headers:
       api-deprecated-versions:
       - 2021-04-07, 2022-02-01
@@ -38,11 +38,11 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Tue, 04 Jul 2023 23:48:39 GMT
+      - Wed, 05 Jul 2023 18:28:55 GMT
       location:
-      - '99465628185224088'
+      - '99479420423318805'
       ms-cv:
-      - I4XQ8X5PZk28in/8aGnSiw.0
+      - 0VkwCAoOdUa/VJ+Ph4GMRg.0
       repeatability-result:
       - accepted
       request-context:
@@ -50,14 +50,14 @@ interactions:
       transfer-encoding:
       - chunked
       x-azure-ref:
-      - 016+kZAAAAACfpwQueJm2SLjmnV/sDOGbWVZSMzExMDAwMTE1MDM1ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0Z7alZAAAAAD2Vi2UZi3URI8GQofg53gHWVZSMzExMDAwMTE1MDMxADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
     status:
       code: 201
       message: Created
 - request:
-    body: '{"validFrom": "2023-07-05T00:48:40.299335", "validUntil": "2023-07-05T01:48:40.299335"}'
+    body: '{"validFrom": "2023-07-05T19:28:56.024576", "validUntil": "2023-07-05T20:28:56.024576"}'
     headers:
       Accept:
       - application/json
@@ -70,19 +70,19 @@ interactions:
       Content-Type:
       - application/merge-patch+json
       User-Agent:
-      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0b3 Python/3.10.7 (Windows-10-10.0.22621-SP0)
+      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0 Python/3.10.7 (Windows-10-10.0.22621-SP0)
       x-ms-content-sha256:
-      - 5GW8J5zwS2aupB06Z537khYbcx+wLHZqWxhcDHJl7Rc=
+      - 9BJ19MX7N5ZC6Da6oD6jxtdxngnxuYFuy4O9oAcLot8=
       x-ms-date:
-      - Tue, 04 Jul 2023 23:48:40 GMT
+      - Wed, 05 Jul 2023 18:28:56 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: PATCH
-    uri: https://sanitized.communication.azure.com/rooms/sanitized?api-version=2023-03-31-preview
+    uri: https://sanitized.communication.azure.com/rooms/sanitized?api-version=2023-06-14
   response:
     body:
-      string: '{"id": "sanitized", "createdAt": "2023-07-04T23:48:40.2621547+00:00",
-        "validFrom": "2023-07-05T00:48:40.299335+00:00", "validUntil": "2023-07-05T01:48:40.299335+00:00"}'
+      string: '{"id": "sanitized", "createdAt": "2023-07-05T18:28:55.7523899+00:00",
+        "validFrom": "2023-07-05T19:28:56.024576+00:00", "validUntil": "2023-07-05T20:28:56.024576+00:00"}'
     headers:
       api-deprecated-versions:
       - 2021-04-07, 2022-02-01
@@ -91,15 +91,15 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Tue, 04 Jul 2023 23:48:40 GMT
+      - Wed, 05 Jul 2023 18:28:56 GMT
       ms-cv:
-      - cpmWLLAuD0atOCIKcb+BKA.0
+      - NOSrL1LJuEuWl/9sw03YRg.0
       request-context:
       - appId=
       transfer-encoding:
       - chunked
       x-azure-ref:
-      - 02K+kZAAAAABzb2iz0ngBQLDzelweKusCWVZSMzExMDAwMTE1MDE5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0aLalZAAAAAAHQBgNm41RRp1jFFzHnt98WVZSMzExMDAwMTE1MDQ3ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
     status:

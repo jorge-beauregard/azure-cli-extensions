@@ -13,36 +13,36 @@ interactions:
       Content-Type:
       - application/json
       Repeatability-First-Sent:
-      - Tue, 04 Jul 2023 23:44:33 GMT
+      - Wed, 05 Jul 2023 18:25:18 GMT
       Repeatability-Request-ID:
-      - b9ed6323-1ac4-11ee-85c9-ef1ec79c5484
+      - 4b51c810-1b61-11ee-ad8e-ef1ec79c5484
       User-Agent:
-      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0b3 Python/3.10.7 (Windows-10-10.0.22621-SP0)
+      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0 Python/3.10.7 (Windows-10-10.0.22621-SP0)
       x-ms-content-sha256:
       - vBTkhrLFogng0nIWoP6/XqO3xl87GjFK9aShkzc8E3g=
       x-ms-date:
-      - Tue, 04 Jul 2023 23:44:33 GMT
+      - Wed, 05 Jul 2023 18:25:18 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: POST
-    uri: https://sanitized.communication.azure.com/rooms?api-version=2023-03-31-preview
+    uri: https://sanitized.communication.azure.com/rooms?api-version=2023-06-14
   response:
     body:
-      string: '{"id": "sanitized", "createdAt": "2023-07-04T23:44:35.8623727+00:00",
-        "validFrom": "2023-07-04T23:44:34.8531396+00:00", "validUntil": "2023-12-31T23:44:34.8531396+00:00"}'
+      string: '{"id": "sanitized", "createdAt": "2023-07-05T18:25:19.6758296+00:00",
+        "validFrom": "2023-07-05T18:25:19.133196+00:00", "validUntil": "2024-01-01T18:25:19.133196+00:00"}'
     headers:
       api-deprecated-versions:
-      - '2021-04-07'
+      - 2021-04-07, 2022-02-01
       api-supported-versions:
-      - 2022-02-01, 2023-03-31-preview, 2023-06-14
+      - 2023-03-31-preview, 2023-06-14
       content-type:
       - application/json; charset=utf-8
       date:
-      - Tue, 04 Jul 2023 23:44:35 GMT
+      - Wed, 05 Jul 2023 18:25:19 GMT
       location:
-      - '99458040827331148'
+      - '99442286413287888'
       ms-cv:
-      - 4qV/RNBPdEyDmvLTIJLMww.0
+      - SOicoVviL0Wx3hdi2Rw6wg.0
       repeatability-result:
       - accepted
       request-context:
@@ -50,7 +50,7 @@ interactions:
       transfer-encoding:
       - chunked
       x-azure-ref:
-      - 04a6kZAAAAACOENbteusFTq8ct9ZUJi+ZWVZSMzExMDAwMTE1MDMzADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0jrWlZAAAAAA6Yip2n2GqSYJgyVAPKyT/WVZSMzExMDAwMTE1MDI5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
     status:

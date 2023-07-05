@@ -17,7 +17,7 @@ interactions:
       x-ms-content-sha256:
       - 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
       x-ms-date:
-      - Tue, 04 Jul 2023 23:39:13 GMT
+      - Wed, 05 Jul 2023 18:20:02 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: POST
@@ -34,15 +34,15 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Tue, 04 Jul 2023 23:39:12 GMT
+      - Wed, 05 Jul 2023 18:20:02 GMT
       ms-cv:
-      - CHodotKaT0WBaaflLPvJJA.0
+      - 6ytopeCVc0aFxpug95iBXA.0
       request-context:
       - appId=
       strict-transport-security:
       - max-age=2592000
       x-azure-ref:
-      - 0oa2kZAAAAABIU8KijAZ8SYmBWuU2pS+PWVZSMzExMDAwMTE1MDMzADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0UrSlZAAAAABLGDAEWmtuQLDqenyuP2WvWVZSMzExMDAwMTE1MDMzADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-processing-time:
@@ -68,14 +68,14 @@ interactions:
       x-ms-content-sha256:
       - nhFAfqVNNvGtmqZXLZeMFVwYcIW0NuuEF0d+D1dlKIY=
       x-ms-date:
-      - Tue, 04 Jul 2023 23:39:13 GMT
+      - Wed, 05 Jul 2023 18:20:03 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: POST
     uri: https://sanitized.communication.azure.com/identities/sanitized/:issueAccessToken?api-version=2022-10-01
   response:
     body:
-      string: '{"token": "sanitized", "expiresOn": "2023-07-05T23:39:14.0479439+00:00"}'
+      string: '{"token": "sanitized", "expiresOn": "2023-07-06T18:20:03.6422403+00:00"}'
     headers:
       api-supported-versions:
       - 2020-07-20-preview2, 2021-02-22-preview1, 2021-03-07, 2021-10-31-preview,
@@ -85,19 +85,19 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Tue, 04 Jul 2023 23:39:13 GMT
+      - Wed, 05 Jul 2023 18:20:02 GMT
       ms-cv:
-      - iUlMFpP9zEaQ4DX68lersw.0
+      - P8zl6EGDuka/UCovbccs/A.0
       request-context:
       - appId=
       strict-transport-security:
       - max-age=2592000
       x-azure-ref:
-      - 0oa2kZAAAAADAJydiuUAMS5/pSpNILgIzWVZSMzExMDAwMTE1MDMzADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0U7SlZAAAAAAMi8G3v6VcRLC+ZkTuxkSnWVZSMzExMDAwMTE1MDM5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-processing-time:
-      - 151ms
+      - 171ms
     status:
       code: 200
       message: OK

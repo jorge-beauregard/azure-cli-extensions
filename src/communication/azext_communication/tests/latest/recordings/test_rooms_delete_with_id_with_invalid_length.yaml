@@ -11,15 +11,15 @@ interactions:
       Content-Length:
       - '0'
       User-Agent:
-      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0b3 Python/3.10.7 (Windows-10-10.0.22621-SP0)
+      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0 Python/3.10.7 (Windows-10-10.0.22621-SP0)
       x-ms-content-sha256:
       - 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
       x-ms-date:
-      - Tue, 04 Jul 2023 23:46:11 GMT
+      - Wed, 05 Jul 2023 18:26:59 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: DELETE
-    uri: https://sanitized.communication.azure.com/rooms/f-1234567890?api-version=2023-03-31-preview
+    uri: https://sanitized.communication.azure.com/rooms/f-1234567890?api-version=2023-06-14
   response:
     body:
       string: '{"error": {"code": "BadRequest", "message": "Invalid room ID length."}}'
@@ -31,15 +31,15 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Tue, 04 Jul 2023 23:46:11 GMT
+      - Wed, 05 Jul 2023 18:26:59 GMT
       ms-cv:
-      - pjxLk9U34kWH6iSWzlmW+g.0
+      - jEQM2PRJf0q7cfkZKPdgIg.0
       request-context:
       - appId=
       transfer-encoding:
       - chunked
       x-azure-ref:
-      - 0Q6+kZAAAAACJh1EqWdViTqmA+b30tP7JWVZSMzExMDAwMTE1MDQ5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 087WlZAAAAAD3XGZeOLb9SpS0uKtg1l1WWVZSMzExMDAwMTE1MDI5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-ms-error-code:

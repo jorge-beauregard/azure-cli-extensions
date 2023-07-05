@@ -17,7 +17,7 @@ interactions:
       x-ms-content-sha256:
       - RgFKX8sq6gKDc377EdeILf3jgzCijxLOR8s04qluHkc=
       x-ms-date:
-      - Tue, 04 Jul 2023 23:34:21 GMT
+      - Wed, 05 Jul 2023 18:15:10 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: POST
@@ -25,7 +25,7 @@ interactions:
   response:
     body:
       string: '{"identity": {"id": "sanitized"}, "accessToken": {"token": "sanitized",
-        "expiresOn": "2023-07-05T23:34:22.5294295+00:00"}}'
+        "expiresOn": "2023-07-06T18:15:10.9037177+00:00"}}'
     headers:
       api-supported-versions:
       - 2020-07-20-preview2, 2021-02-22-preview1, 2021-03-07, 2021-10-31-preview,
@@ -35,19 +35,19 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Tue, 04 Jul 2023 23:34:21 GMT
+      - Wed, 05 Jul 2023 18:15:10 GMT
       ms-cv:
-      - 2byU2N2c9UW746YpDhJbnA.0
+      - FhyEiCcmdUGB6JDoF3GUpg.0
       request-context:
       - appId=
       strict-transport-security:
       - max-age=2592000
       x-azure-ref:
-      - 0fqykZAAAAAA0WjmM6+yGSKGozreHHBQ6WVZSMzExMDAwMTE1MDMzADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0LrOlZAAAAAApDXor93aEQpr/npSsGuGXWVZSMzExMDAwMTE1MDMxADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-processing-time:
-      - 104ms
+      - 105ms
     status:
       code: 201
       message: Created
@@ -67,13 +67,13 @@ interactions:
       User-Agent:
       - AzureCli/2.0.0 azsdk-python-communication-chat/1.1.0 Python/3.10.7 (Windows-10-10.0.22621-SP0)
       repeatability-request-id:
-      - 0ea7f1f7-cf34-4146-ac13-2d71a2f8c6f9
+      - d0eb8b32-89ff-456e-ba06-02c04d525c66
     method: POST
     uri: https://sanitized.communication.azure.com/chat/threads?api-version=2021-09-07
   response:
     body:
       string: '{"chatThread": {"id": "sanitized", "topic": "thread-topic", "createdOn":
-        "2023-07-04T23:34:22Z", "createdByCommunicationIdentifier": {"rawId": "sanitized",
+        "2023-07-05T18:15:11Z", "createdByCommunicationIdentifier": {"rawId": "sanitized",
         "communicationUser": {"id": "sanitized"}}}}'
     headers:
       api-supported-versions:
@@ -83,19 +83,19 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Tue, 04 Jul 2023 23:34:22 GMT
+      - Wed, 05 Jul 2023 18:15:10 GMT
       location:
-      - https://clitest000002.communication.azure.com/chat/threads/19%3Auo0mSa3h0MWShCCs1hHf01FqETCRJnd7vyuBOfGfnpc1@thread.v2
+      - https://clitest000002.communication.azure.com/chat/threads/19%3ATZc0uwNbC4bSVyGS0GXUr1KQ9z6uhn3-ptroGGqwtzg1@thread.v2
       ms-cv:
-      - xBrr1bj1nE6XtAH6Qz2evQ.0
+      - mytUe4N2Ek+GJzR+IDf4zA.0
       strict-transport-security:
       - max-age=2592000
       x-azure-ref:
-      - 0fqykZAAAAACXRpF7kOnjQ6rMOH65hgpaWVZSMzExMDAwMTE1MDE5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0L7OlZAAAAAAL0OQv/WYuSIzjKhwV3ZVuWVZSMzExMDAwMTE1MDI5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-processing-time:
-      - 351ms
+      - 326ms
     status:
       code: 201
       message: Created
@@ -123,17 +123,17 @@ interactions:
       api-supported-versions:
       - 2021-03-07, 2021-04-05-preview6, 2021-09-07, 2023-04-01-preview, 2023-07-01-preview
       date:
-      - Tue, 04 Jul 2023 23:34:23 GMT
+      - Wed, 05 Jul 2023 18:15:11 GMT
       ms-cv:
-      - zs8HJeTkGUmOjyzhqU8ujw.0
+      - FtiRHygDJ0qJG+vkaXOWFQ.0
       strict-transport-security:
       - max-age=2592000
       x-azure-ref:
-      - 0f6ykZAAAAADom7ej9f67T4aC6MOLlYlvWVZSMzExMDAwMTE1MDIxADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0L7OlZAAAAAAIJPTmTPMeQYR0AmTctSt5WVZSMzExMDAwMTE1MDIzADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-processing-time:
-      - 224ms
+      - 264ms
     status:
       code: 204
       message: No Content
