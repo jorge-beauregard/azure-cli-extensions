@@ -13,23 +13,23 @@ interactions:
       Content-Type:
       - application/json
       Repeatability-First-Sent:
-      - Fri, 23 Jun 2023 17:22:14 GMT
+      - Tue, 04 Jul 2023 23:46:19 GMT
       Repeatability-Request-ID:
-      - 7ee6b0fb-11ea-11ee-9dd2-ef1ec79c5484
+      - f9640ca9-1ac4-11ee-83f2-ef1ec79c5484
       User-Agent:
       - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0b3 Python/3.10.7 (Windows-10-10.0.22621-SP0)
       x-ms-content-sha256:
       - vBTkhrLFogng0nIWoP6/XqO3xl87GjFK9aShkzc8E3g=
       x-ms-date:
-      - Fri, 23 Jun 2023 17:22:14 GMT
+      - Tue, 04 Jul 2023 23:46:19 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: POST
     uri: https://sanitized.communication.azure.com/rooms?api-version=2023-03-31-preview
   response:
     body:
-      string: '{"id": "sanitized", "createdAt": "2023-06-23T17:22:14.8015514+00:00",
-        "validFrom": "2023-06-23T17:22:14.7013607+00:00", "validUntil": "2023-12-20T17:22:14.7013607+00:00"}'
+      string: '{"id": "sanitized", "createdAt": "2023-07-04T23:46:20.1952592+00:00",
+        "validFrom": "2023-07-04T23:46:20.0712946+00:00", "validUntil": "2023-12-31T23:46:20.0712946+00:00"}'
     headers:
       api-deprecated-versions:
       - '2021-04-07'
@@ -38,11 +38,11 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Fri, 23 Jun 2023 17:22:14 GMT
+      - Tue, 04 Jul 2023 23:46:19 GMT
       location:
-      - '99449352641907684'
+      - '99493737934796005'
       ms-cv:
-      - z5jSn94N10ys26mvTIwAbw.0
+      - emTlVBTo10mmipQDwYN2ag.0
       repeatability-result:
       - accepted
       request-context:
@@ -50,7 +50,7 @@ interactions:
       transfer-encoding:
       - chunked
       x-azure-ref:
-      - 0xtSVZAAAAAD8flyDlQ+gQrucYxyYwC/wWVZSMzExMDAwMTE1MDA5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0S6+kZAAAAAC4lC8D7WwQTZLVuV5Oe/y2WVZSMzExMDAwMTE1MDIxADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
     status:
@@ -70,15 +70,15 @@ interactions:
       x-ms-content-sha256:
       - 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
       x-ms-date:
-      - Fri, 23 Jun 2023 17:22:15 GMT
+      - Tue, 04 Jul 2023 23:46:20 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: GET
     uri: https://sanitized.communication.azure.com/rooms/sanitized?api-version=2023-03-31-preview
   response:
     body:
-      string: '{"id": "sanitized", "createdAt": "2023-06-23T17:22:14.8015514+00:00",
-        "validFrom": "2023-06-23T17:22:14.7013607+00:00", "validUntil": "2023-12-20T17:22:14.7013607+00:00"}'
+      string: '{"id": "sanitized", "createdAt": "2023-07-04T23:46:20.1952592+00:00",
+        "validFrom": "2023-07-04T23:46:20.0712946+00:00", "validUntil": "2023-12-31T23:46:20.0712946+00:00"}'
     headers:
       api-deprecated-versions:
       - '2021-04-07'
@@ -87,15 +87,15 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Fri, 23 Jun 2023 17:22:14 GMT
+      - Tue, 04 Jul 2023 23:46:20 GMT
       ms-cv:
-      - NjihT3gc5UqR/nIO4tNuMg.0
+      - P2BFDpE1Ak+Shl7MFKYfFA.0
       request-context:
       - appId=
       transfer-encoding:
       - chunked
       x-azure-ref:
-      - 0x9SVZAAAAAAZKdEpk8aQRZ4LSjaH9z/3WVZSMzExMDAwMTE1MDMxADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0TK+kZAAAAABJc/WvmsA0QrZd+dOLoLQ8WVZSMzExMDAwMTE1MDA5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
     status:

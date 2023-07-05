@@ -17,7 +17,7 @@ interactions:
       x-ms-content-sha256:
       - RgFKX8sq6gKDc377EdeILf3jgzCijxLOR8s04qluHkc=
       x-ms-date:
-      - Fri, 23 Jun 2023 17:13:35 GMT
+      - Tue, 04 Jul 2023 23:37:31 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: POST
@@ -25,7 +25,7 @@ interactions:
   response:
     body:
       string: '{"identity": {"id": "sanitized"}, "accessToken": {"token": "sanitized",
-        "expiresOn": "2023-06-24T17:13:35.0829451+00:00"}}'
+        "expiresOn": "2023-07-05T23:37:31.9389321+00:00"}}'
     headers:
       api-supported-versions:
       - 2020-07-20-preview2, 2021-02-22-preview1, 2021-03-07, 2021-10-31-preview,
@@ -35,19 +35,19 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Fri, 23 Jun 2023 17:13:34 GMT
+      - Tue, 04 Jul 2023 23:37:31 GMT
       ms-cv:
-      - 4xCOocZQokim8Pn3FDRmLA.0
+      - jOZhF5Zr3UCA5WZDYlvF4w.0
       request-context:
       - appId=
       strict-transport-security:
       - max-age=2592000
       x-azure-ref:
-      - 0v9KVZAAAAADi0WcVVWeGSZs/M+ubbSM1WVZSMzExMDAwMTE1MDIzADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0O62kZAAAAACSWnPmLMMsQ4+eFo+6wRnAWVZSMzExMDAwMTE1MDMxADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-processing-time:
-      - 111ms
+      - 101ms
     status:
       code: 201
       message: Created
@@ -75,17 +75,17 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Fri, 23 Jun 2023 17:13:34 GMT
+      - Tue, 04 Jul 2023 23:37:32 GMT
       ms-cv:
-      - zYa9VWM0i0uEqc4sBrTgVg.0
+      - 7TfmO5BEy0mtYyiT9sJOmQ.0
       strict-transport-security:
       - max-age=2592000
       x-azure-ref:
-      - 0v9KVZAAAAABPztcvAiYPSIlGd4GtQTyEWVZSMzExMDAwMTE1MDIxADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0PK2kZAAAAAAICPU8dSvtQYddPPzW7SuUWVZSMzExMDAwMTE1MDQ5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-processing-time:
-      - 74ms
+      - 76ms
     status:
       code: 200
       message: OK

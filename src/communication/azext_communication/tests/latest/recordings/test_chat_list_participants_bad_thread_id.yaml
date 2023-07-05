@@ -17,7 +17,7 @@ interactions:
       x-ms-content-sha256:
       - RgFKX8sq6gKDc377EdeILf3jgzCijxLOR8s04qluHkc=
       x-ms-date:
-      - Fri, 23 Jun 2023 17:08:45 GMT
+      - Tue, 04 Jul 2023 23:32:43 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: POST
@@ -25,7 +25,7 @@ interactions:
   response:
     body:
       string: '{"identity": {"id": "sanitized"}, "accessToken": {"token": "sanitized",
-        "expiresOn": "2023-06-24T17:08:45.6205199+00:00"}}'
+        "expiresOn": "2023-07-05T23:32:43.3649375+00:00"}}'
     headers:
       api-supported-versions:
       - 2020-07-20-preview2, 2021-02-22-preview1, 2021-03-07, 2021-10-31-preview,
@@ -35,19 +35,19 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Fri, 23 Jun 2023 17:08:45 GMT
+      - Tue, 04 Jul 2023 23:32:42 GMT
       ms-cv:
-      - o8uJZyNYK0SbDdrmeUNUGA.0
+      - 6epbc8fRp0CcTFgNqdYdMQ.0
       request-context:
       - appId=
       strict-transport-security:
       - max-age=2592000
       x-azure-ref:
-      - 0ndGVZAAAAAAjJ9NSNHUdRp4hdxaxeV6aWVZSMzExMDAwMTE1MDM1ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0G6ykZAAAAAB3+F5q5y5jTaFbpPkJznRTWVZSMzExMDAwMTE1MDE3ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-processing-time:
-      - 109ms
+      - 107ms
     status:
       code: 201
       message: Created
@@ -73,19 +73,19 @@ interactions:
       content-type:
       - application/json
       date:
-      - Fri, 23 Jun 2023 17:08:45 GMT
+      - Tue, 04 Jul 2023 23:32:42 GMT
       ms-cv:
-      - JhE3zViheUO7HNKDpTr9eQ.0
+      - LeyDCzGjmk+qyiIVq5iCOw.0
       strict-transport-security:
       - max-age=2592000
       transfer-encoding:
       - chunked
       x-azure-ref:
-      - 0ntGVZAAAAABZpyUaMLpYRbOdfZT87ILlWVZSMzExMDAwMTE1MDM1ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0G6ykZAAAAAB366CEB52PTKSDmj4bwBTRWVZSMzExMDAwMTE1MDA5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-processing-time:
-      - 50ms
+      - 12ms
     status:
       code: 404
       message: Not Found

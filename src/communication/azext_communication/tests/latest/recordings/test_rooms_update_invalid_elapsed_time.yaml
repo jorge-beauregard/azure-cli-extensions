@@ -13,23 +13,23 @@ interactions:
       Content-Type:
       - application/json
       Repeatability-First-Sent:
-      - Fri, 23 Jun 2023 17:23:51 GMT
+      - Tue, 04 Jul 2023 23:47:47 GMT
       Repeatability-Request-ID:
-      - b8d6af1b-11ea-11ee-8745-ef1ec79c5484
+      - 2dd57b30-1ac5-11ee-bcff-ef1ec79c5484
       User-Agent:
       - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0b3 Python/3.10.7 (Windows-10-10.0.22621-SP0)
       x-ms-content-sha256:
       - vBTkhrLFogng0nIWoP6/XqO3xl87GjFK9aShkzc8E3g=
       x-ms-date:
-      - Fri, 23 Jun 2023 17:23:51 GMT
+      - Tue, 04 Jul 2023 23:47:47 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: POST
     uri: https://sanitized.communication.azure.com/rooms?api-version=2023-03-31-preview
   response:
     body:
-      string: '{"id": "sanitized", "createdAt": "2023-06-23T17:23:51.9909645+00:00",
-        "validFrom": "2023-06-23T17:23:51.9009369+00:00", "validUntil": "2023-12-20T17:23:51.9009369+00:00"}'
+      string: '{"id": "sanitized", "createdAt": "2023-07-04T23:47:47.8361608+00:00",
+        "validFrom": "2023-07-04T23:47:47.7092572+00:00", "validUntil": "2023-12-31T23:47:47.7092572+00:00"}'
     headers:
       api-deprecated-versions:
       - '2021-04-07'
@@ -38,11 +38,11 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Fri, 23 Jun 2023 17:23:51 GMT
+      - Tue, 04 Jul 2023 23:47:48 GMT
       location:
-      - '9943847909024374'
+      - '99416679977093682'
       ms-cv:
-      - mx6jrfVLqE6Diur51xRbAQ.0
+      - q+3gkPRJi0OOLu0URgzTEw.0
       repeatability-result:
       - accepted
       request-context:
@@ -50,7 +50,7 @@ interactions:
       transfer-encoding:
       - chunked
       x-azure-ref:
-      - 0J9WVZAAAAADRRatbn6NuQogP1XyklmJgWVZSMzExMDAwMTE1MDM1ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0o6+kZAAAAAAzOlxiwVo8SbdSopCn5G1oWVZSMzExMDAwMTE1MDA5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
     status:
@@ -74,7 +74,7 @@ interactions:
       x-ms-content-sha256:
       - zlWO4EFhT1ervgHolxeGoDg90Trj1w0sz1JnhetMYZs=
       x-ms-date:
-      - Fri, 23 Jun 2023 17:23:52 GMT
+      - Tue, 04 Jul 2023 23:47:48 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: PATCH
@@ -89,15 +89,15 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Fri, 23 Jun 2023 17:23:52 GMT
+      - Tue, 04 Jul 2023 23:47:48 GMT
       ms-cv:
-      - QVcFhRZ6qUmka4TSkiTLBg.0
+      - 3ZmE59cIF0qVeBdkNKDiaQ.0
       request-context:
       - appId=
       transfer-encoding:
       - chunked
       x-azure-ref:
-      - 0KNWVZAAAAABnGXuGQfu8RKSyQdkntO4ZWVZSMzExMDAwMTE1MDE3ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0pK+kZAAAAACpRHUunquQQKTJu+ykoAb3WVZSMzExMDAwMTE1MDM5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-ms-error-code:
