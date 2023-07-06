@@ -13,23 +13,23 @@ interactions:
       Content-Type:
       - application/json
       Repeatability-First-Sent:
-      - Wed, 05 Jul 2023 18:25:24 GMT
+      - Thu, 06 Jul 2023 21:13:13 GMT
       Repeatability-Request-ID:
-      - 4ee44641-1b61-11ee-8a54-ef1ec79c5484
+      - eb21b685-1c41-11ee-b486-ef1ec79c5484
       User-Agent:
-      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0 Python/3.10.7 (Windows-10-10.0.22621-SP0)
+      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0 Python/3.10.11 (Windows-10-10.0.22621-SP0)
       x-ms-content-sha256:
       - vBTkhrLFogng0nIWoP6/XqO3xl87GjFK9aShkzc8E3g=
       x-ms-date:
-      - Wed, 05 Jul 2023 18:25:24 GMT
+      - Thu, 06 Jul 2023 21:13:13 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: POST
     uri: https://sanitized.communication.azure.com/rooms?api-version=2023-06-14
   response:
     body:
-      string: '{"id": "sanitized", "createdAt": "2023-07-05T18:25:25.0623628+00:00",
-        "validFrom": "2023-07-05T18:25:24.7541248+00:00", "validUntil": "2024-01-01T18:25:24.7541248+00:00"}'
+      string: '{"id": "sanitized", "createdAt": "2023-07-06T21:13:13.7833851+00:00",
+        "validFrom": "2023-07-06T21:13:13.598979+00:00", "validUntil": "2024-01-02T21:13:13.598979+00:00"}'
     headers:
       api-deprecated-versions:
       - 2021-04-07, 2022-02-01
@@ -38,11 +38,11 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Wed, 05 Jul 2023 18:25:24 GMT
+      - Thu, 06 Jul 2023 21:13:13 GMT
       location:
-      - '99435911096384706'
+      - '99445713324129902'
       ms-cv:
-      - 1XUaze021UudsUSZmFmt7Q.0
+      - /5R68JSmx0uBfikROfAMrg.0
       repeatability-result:
       - accepted
       request-context:
@@ -50,7 +50,7 @@ interactions:
       transfer-encoding:
       - chunked
       x-azure-ref:
-      - 0lLWlZAAAAAAHOJOZqEGPRZ+xI9Ti6QF2WVZSMzExMDAwMTE1MDQ3ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0aS6nZAAAAAB9vjlBS4uwR4vyDtXLTA+zWVZSMzExMDAwMTE1MDQ3ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
     status:
@@ -70,11 +70,11 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - AzureCli/2.0.0 azsdk-python-communication-identity/1.3.1 Python/3.10.7 (Windows-10-10.0.22621-SP0)
+      - AzureCli/2.0.0 azsdk-python-communication-identity/1.3.1 Python/3.10.11 (Windows-10-10.0.22621-SP0)
       x-ms-content-sha256:
       - 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
       x-ms-date:
-      - Wed, 05 Jul 2023 18:25:25 GMT
+      - Thu, 06 Jul 2023 21:13:14 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: POST
@@ -91,24 +91,24 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Wed, 05 Jul 2023 18:25:25 GMT
+      - Thu, 06 Jul 2023 21:13:14 GMT
       ms-cv:
-      - AiMZeuWldUi0tHqYLonubA.0
+      - LGGtRHMr202sZlpAhFnQAA.0
       request-context:
       - appId=
       strict-transport-security:
       - max-age=2592000
       x-azure-ref:
-      - 0lbWlZAAAAACyu/2sYOhYRrVb/a6GEl4+WVZSMzExMDAwMTE1MDM3ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0ai6nZAAAAADsKb/PcRawQZidq3kVDvhnWVZSMzExMDAwMTE1MDM1ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-processing-time:
-      - 98ms
+      - 102ms
     status:
       code: 201
       message: Created
 - request:
-    body: '{"participants": {"8:acs:94ba9ca3-98bc-485a-a6fd-1470b7ff9bcd_00000019-c72e-f492-5b3d-8e3a0d00334f":
+    body: '{"participants": {"8:acs:3745eeed-7069-4933-b4b7-833ec6227546_00000019-ccee-f44b-5b3d-8e3a0d00a063":
       {"role": "Presenter"}}}'
     headers:
       Accept:
@@ -122,11 +122,11 @@ interactions:
       Content-Type:
       - application/merge-patch+json
       User-Agent:
-      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0 Python/3.10.7 (Windows-10-10.0.22621-SP0)
+      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0 Python/3.10.11 (Windows-10-10.0.22621-SP0)
       x-ms-content-sha256:
-      - OMSyk83vuFuJXbKV0iuct22RCToC67uz8rYdlKFCmmo=
+      - VQoca4qd403QGvXp/Dke0ZZS+1DbNYb27qcSbV+FEho=
       x-ms-date:
-      - Wed, 05 Jul 2023 18:25:25 GMT
+      - Thu, 06 Jul 2023 21:13:15 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: PATCH
@@ -140,15 +140,15 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Wed, 05 Jul 2023 18:25:26 GMT
+      - Thu, 06 Jul 2023 21:13:15 GMT
       ms-cv:
-      - RdcETWiPPEqunkuy2O3tVw.0
+      - SG3eAy5FbE2uyQkrHn8SnQ.0
       request-context:
       - appId=
       transfer-encoding:
       - chunked
       x-azure-ref:
-      - 0lbWlZAAAAADr7KDGMGPAS6G3tKg3dXbrWVZSMzExMDAwMTE1MDQ5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0ai6nZAAAAABDY4B5UA2oSIeTTXJmSAnjWVZSMzExMDAwMTE1MDExADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
     status:
@@ -164,11 +164,11 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0 Python/3.10.7 (Windows-10-10.0.22621-SP0)
+      - AzureCli/2.0.0 azsdk-python-communication-rooms/1.0.0 Python/3.10.11 (Windows-10-10.0.22621-SP0)
       x-ms-content-sha256:
       - 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
       x-ms-date:
-      - Wed, 05 Jul 2023 18:25:27 GMT
+      - Thu, 06 Jul 2023 21:13:17 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: GET
@@ -182,15 +182,15 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Wed, 05 Jul 2023 18:25:27 GMT
+      - Thu, 06 Jul 2023 21:13:16 GMT
       ms-cv:
-      - 6Xvz0+d6sU2kYlHzlFNk7Q.0
+      - lUWGE/kC2kmxz4ONrScgYA.0
       request-context:
       - appId=
       transfer-encoding:
       - chunked
       x-azure-ref:
-      - 0l7WlZAAAAADQ5gOM89n7RZryAXG2EABLWVZSMzExMDAwMTE1MDA5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0bC6nZAAAAABtjZqUhLfEQISXuEg5+WCNWVZSMzExMDAwMTE1MDQ3ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
     status:

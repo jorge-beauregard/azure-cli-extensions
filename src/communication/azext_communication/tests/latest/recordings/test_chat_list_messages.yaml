@@ -13,11 +13,11 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - AzureCli/2.0.0 azsdk-python-communication-identity/1.3.1 Python/3.10.7 (Windows-10-10.0.22621-SP0)
+      - AzureCli/2.0.0 azsdk-python-communication-identity/1.3.1 Python/3.10.11 (Windows-10-10.0.22621-SP0)
       x-ms-content-sha256:
       - RgFKX8sq6gKDc377EdeILf3jgzCijxLOR8s04qluHkc=
       x-ms-date:
-      - Wed, 05 Jul 2023 18:10:15 GMT
+      - Thu, 06 Jul 2023 21:03:15 GMT
       x-ms-return-client-request-id:
       - 'true'
     method: POST
@@ -25,7 +25,7 @@ interactions:
   response:
     body:
       string: '{"identity": {"id": "sanitized"}, "accessToken": {"token": "sanitized",
-        "expiresOn": "2023-07-06T18:10:15.8778789+00:00"}}'
+        "expiresOn": "2023-07-07T21:03:14.6580258+00:00"}}'
     headers:
       api-supported-versions:
       - 2020-07-20-preview2, 2021-02-22-preview1, 2021-03-07, 2021-10-31-preview,
@@ -35,19 +35,19 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Wed, 05 Jul 2023 18:10:15 GMT
+      - Thu, 06 Jul 2023 21:03:14 GMT
       ms-cv:
-      - g2hm1XWWNkSFYOWZMJdjoQ.0
+      - sv5Gfao8tkiTEH8isBplyQ.0
       request-context:
       - appId=
       strict-transport-security:
       - max-age=2592000
       x-azure-ref:
-      - 0B7KlZAAAAAC1/I9loQbLQ6t+oHqo3PIbWVZSMzExMDAwMTE1MDE3ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0EiynZAAAAABQykfMchoLTqWlSLeiOjBOWVZSMzExMDAwMTE1MDM3ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-processing-time:
-      - 114ms
+      - 104ms
     status:
       code: 201
       message: Created
@@ -65,15 +65,15 @@ interactions:
       Content-Type:
       - application/json
       User-Agent:
-      - AzureCli/2.0.0 azsdk-python-communication-chat/1.1.0 Python/3.10.7 (Windows-10-10.0.22621-SP0)
+      - AzureCli/2.0.0 azsdk-python-communication-chat/1.1.0 Python/3.10.11 (Windows-10-10.0.22621-SP0)
       repeatability-request-id:
-      - 82f2a183-e16d-4640-9c41-f69775f8d39c
+      - 4fe792ca-5012-46de-9920-4fe86682b063
     method: POST
     uri: https://sanitized.communication.azure.com/chat/threads?api-version=2021-09-07
   response:
     body:
       string: '{"chatThread": {"id": "sanitized", "topic": "another-topic", "createdOn":
-        "2023-07-05T18:10:16Z", "createdByCommunicationIdentifier": {"rawId": "sanitized",
+        "2023-07-06T21:03:15Z", "createdByCommunicationIdentifier": {"rawId": "sanitized",
         "communicationUser": {"id": "sanitized"}}}}'
     headers:
       api-supported-versions:
@@ -83,19 +83,19 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Wed, 05 Jul 2023 18:10:16 GMT
+      - Thu, 06 Jul 2023 21:03:15 GMT
       location:
-      - https://clitest000002.communication.azure.com/chat/threads/19%3Au9ZNv5Gvu9CXy2piR2Oph0LZ-4SjJTXspk5CBUMqva41@thread.v2
+      - https://clitest000002.communication.azure.com/chat/threads/19%3AALAJkvn846iiNakoSVLeOB9aCHNMoP_2mNezbIwlEnY1@thread.v2
       ms-cv:
-      - A8Fa3tE450upEqrcp880Ug.0
+      - hqC4mPpOv0eht9R7U/EDvQ.0
       strict-transport-security:
       - max-age=2592000
       x-azure-ref:
-      - 0CLKlZAAAAACS4QsB6Qs3QbpDrrV3HKC9WVZSMzExMDAwMTE1MDExADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0EyynZAAAAAB7FMKd41zUToMH9ECWcT/xWVZSMzExMDAwMTE1MDA5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-processing-time:
-      - 512ms
+      - 471ms
     status:
       code: 201
       message: Created
@@ -109,19 +109,19 @@ interactions:
       Connection:
       - keep-alive
       User-Agent:
-      - azsdk-python-communication-chat/1.1.0 Python/3.10.7 (Windows-10-10.0.22621-SP0)
+      - azsdk-python-communication-chat/1.1.0 Python/3.10.11 (Windows-10-10.0.22621-SP0)
     method: GET
     uri: https://sanitized.communication.azure.com/chat/threads/sanitized/messages?startTime=2022-01-01T00%3A00%3A00.000Z&api-version=2021-09-07
   response:
     body:
       string: '{"value": [{"id": "sanitized", "type": "topicUpdated", "sequenceId":
-        "2", "version": "1688580616712", "content": {"topic": "another-topic", "initiatorCommunicationIdentifier":
+        "2", "version": "1688677395303", "content": {"topic": "another-topic", "initiatorCommunicationIdentifier":
         {"rawId": "sanitized", "communicationUser": {"id": "sanitized"}}}, "createdOn":
-        "2023-07-05T18:10:16Z"}, {"id": "sanitized", "type": "participantAdded", "sequenceId":
-        "1", "version": "1688580616656", "content": {"participants": [{"communicationIdentifier":
+        "2023-07-06T21:03:15Z"}, {"id": "sanitized", "type": "participantAdded", "sequenceId":
+        "1", "version": "1688677395249", "content": {"participants": [{"communicationIdentifier":
         {"rawId": "sanitized", "communicationUser": {"id": "sanitized"}}, "shareHistoryTime":
         "1970-01-01T00:00:00Z"}], "initiatorCommunicationIdentifier": {"rawId": "sanitized",
-        "communicationUser": {"id": "sanitized"}}}, "createdOn": "2023-07-05T18:10:16Z"}]}'
+        "communicationUser": {"id": "sanitized"}}}, "createdOn": "2023-07-06T21:03:15Z"}]}'
     headers:
       api-supported-versions:
       - 2021-03-07, 2021-04-05-preview6, 2021-09-07, 2023-04-01-preview, 2023-07-01-preview
@@ -130,17 +130,17 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Wed, 05 Jul 2023 18:10:16 GMT
+      - Thu, 06 Jul 2023 21:03:15 GMT
       ms-cv:
-      - wiJSCkbR902EDTqRogcX3w.0
+      - qGoqGBcdh0a0mqjfeBeB8g.0
       strict-transport-security:
       - max-age=2592000
       x-azure-ref:
-      - 0CbKlZAAAAAAS6mIbculwQ6RDAMG3HGXDWVZSMzExMDAwMTE1MDE5ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
+      - 0EyynZAAAAAAvBLHg6N1/Sr5htTjpNQa3WVZSMzExMDAwMTE1MDM3ADlmYzdiNTE5LWE4Y2MtNGY4OS05MzVlLWM5MTQ4YWUwOWU4MQ==
       x-cache:
       - CONFIG_NOCACHE
       x-processing-time:
-      - 128ms
+      - 151ms
     status:
       code: 200
       message: OK
